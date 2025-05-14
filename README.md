@@ -6,8 +6,8 @@ size 2698
 This repository presents a data science project focused on Healthcare Access for African Americans. The goal is to identify disparities in access to care and provide actionable insights to improve health equity across communities.
 
 # Repository Structure and Notes
-Cookiecutter Template
-This repository was scaffolded using the cookiecutter data science template (https://drivendata.github.io/cookiecutter-data-science/). As a result, some folders (e.g., models/, notebooks/, references/) may appear empty—they are part of the standard structure but were not used in this project.
+### Cookiecutter Template
+This repository was scaffolded using the cookiecutter data science template (https://drivendata.github.io/cookiecutter-data-science/). As a result, some folders (e.g., references, reports/) may appear empty—they are part of the standard structure but were not used in this project.
 
 # Data Exploration
 During the exploratory data analysis (EDA) phase, multiple datasets were reviewed. The final dataset was selected because it best aligned with the project's objectives, especially around race and access to healthcare services.
