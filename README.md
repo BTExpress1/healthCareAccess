@@ -18,6 +18,9 @@ To establish a performance benchmark, a simple out-of-the-box linear regression 
 
 The linear model now serves solely as a baseline against which tree-based models like Random Forest and LightGBM are compared.
 
+# Modeling Refinement
+During model development, I identified significant overfitting driven by features strongly correlated with race. To address this, I removed several high-weight, redundant, or racially skewed features to reduce bias and improve generalization. The dataset itself was imbalanced, with 74.3% of observations attributed to individuals identifying as white. The final model emphasizes social, health, and demographic factors in its predictions, supporting a more equitable and interpretable outcome.
+
 # Dataset Citation
 The final analysis is based on the 2023 National Health Interview Survey (NHIS) Adult File. The dataset was obtained from the Centers for Disease Control and Prevention (CDC), National Center for Health Statistics (NCHS):
 
