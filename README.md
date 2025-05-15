@@ -63,7 +63,9 @@ Open and run these notebooks in order:
 notebooks/healthCareAccess_Wrangling.ipynb
 
 notebooks/healthCareAccess_EDA.ipynb
+
 notebooks/healthCareAccess_training.ipynb
+
 notebooks/healthCareAccess_modeling.ipynb
 
 Results, models, and charts will be saved automatically to:
