@@ -60,13 +60,11 @@ jupyter lab
 
 Open and run these notebooks in order:
 
-notebooks/Capstone_Two.ipynb
+notebooks/healthCareAccess_Wrangling.ipynb
 
-notebooks/CapstoneTwoEDA.ipynb
-
-notebooks/CapstoneTwo_preprocessing_and_training.ipynb
-
-notebooks/capstonetwo_modeling.ipynb
+notebooks/healthCareAccess_EDA.ipynb
+notebooks/healthCareAccess_training.ipynb
+notebooks/healthCareAccess_modeling.ipynb
 
 Results, models, and charts will be saved automatically to:
 
