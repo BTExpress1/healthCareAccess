@@ -28,6 +28,59 @@ The linear model now serves solely as a baseline against which tree-based models
 ## Modeling Refinement
 During model development, I identified significant overfitting driven by features strongly correlated with race. To address this, I removed several high-weight, redundant, or racially skewed features to reduce bias and improve generalization. The dataset itself was imbalanced, with 74.3% of observations attributed to individuals identifying as white. The final model emphasizes social, health, and demographic factors in its predictions, supporting a more equitable and interpretable outcome.
 
+## How to Use This Project
+This project is designed to explore healthcare access disparities using 2023 data. To run the analysis and replicate the results:
+
+#### Requirements
+Python 3.10+
+
+pip
+
+Git LFS (for downloading large model + data files)
+
+git lfs install
+
+#### Installation
+Clone the repo and install dependencies:
+
+git clone https://github.com/BTExpress1/healthCareAccess.git
+cd healthCareAccess
+pip install -r requirements.txt
+
+#### Project Structure
+notebooks/                         # Jupyter notebooks (EDA, training, modeling)
+data/                              # Processed and raw datasets
+models/                            # Trained model artifacts
+reports/                           # Final report and presentation
+healthcareaccess/                  # Source code (config, data prep, modeling)
+
+#### Running the Project
+Launch Jupyter Lab or Notebook:
+jupyter lab
+
+Open and run these notebooks in order:
+
+notebooks/Capstone_Two.ipynb
+
+notebooks/CapstoneTwoEDA.ipynb
+
+notebooks/CapstoneTwo_preprocessing_and_training.ipynb
+
+notebooks/capstonetwo_modeling.ipynb
+
+Results, models, and charts will be saved automatically to:
+
+models/
+
+reports/figures/
+
+#### Notes
+This project is based on the 2023 CDC NHIS dataset.
+
+Some folders (e.g., docs/, reports/figures/) may contain placeholder or empty files due to the project template (Cookiecutter).
+
+Final model outputs are tracked via Git LFS due to file size.
+
 ## Dataset Citation
 The final analysis is based on the 2023 National Health Interview Survey (NHIS) Adult File. The dataset was obtained from the Centers for Disease Control and Prevention (CDC), National Center for Health Statistics (NCHS):
 
