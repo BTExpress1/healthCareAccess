@@ -13,6 +13,10 @@ To ensure clarity and focus, only the relevant components of the analysis are re
 
 # Modeling Approach
 Given the complexity of the healthcare access problem and the nature of the data, I recognized early on that traditional models like linear or logistic regression would be insufficient. However, I implemented a basic version of logistic regression to establish a performance baseline before moving on to more sophisticated modeling techniques.
+### Baseline Modeling
+To establish a performance benchmark, a simple out-of-the-box linear regression model was applied using scaled features. No feature selection or hyperparameter tuning was performed. While earlier versions of this project included multiple linear regression variations (e.g., pipeline integration, SelectKBest, and GridSearchCV), those efforts provided minimal value and were removed in the final version for clarity.
+
+The linear model now serves solely as a baseline against which tree-based models like Random Forest and LightGBM are compared.
 
 # Dataset Citation
 The final analysis is based on the 2023 National Health Interview Survey (NHIS) Adult File. The dataset was obtained from the Centers for Disease Control and Prevention (CDC), National Center for Health Statistics (NCHS):
