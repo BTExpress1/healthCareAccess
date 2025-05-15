@@ -31,7 +31,7 @@ During model development, I identified significant overfitting driven by feature
 ## How to Use This Project
 This project is designed to explore healthcare access disparities using 2023 data. To run the analysis and replicate the results:
 
-#### Requirements
+### Requirements
 Python 3.10+
 
 pip
@@ -40,21 +40,21 @@ Git LFS (for downloading large model + data files)
 
 git lfs install
 
-#### Installation
+### Installation
 Clone the repo and install dependencies:
 
 git clone https://github.com/BTExpress1/healthCareAccess.git
 cd healthCareAccess
 pip install -r requirements.txt
 
-#### Project Structure
+### Project Structure
 notebooks/                         # Jupyter notebooks (EDA, training, modeling)
 data/                              # Processed and raw datasets
 models/                            # Trained model artifacts
 reports/                           # Final report and presentation
 healthcareaccess/                  # Source code (config, data prep, modeling)
 
-#### Running the Project
+### Running the Project
 Launch Jupyter Lab or Notebook:
 jupyter lab
 
