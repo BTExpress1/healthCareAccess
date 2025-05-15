@@ -74,7 +74,7 @@ models/
 
 reports/figures/
 
-#### Notes
+### Notes
 This project is based on the 2023 CDC NHIS dataset.
 
 Some folders (e.g., docs/, reports/figures/) may contain placeholder or empty files due to the project template (Cookiecutter).
